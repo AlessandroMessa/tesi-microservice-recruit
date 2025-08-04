@@ -2,7 +2,7 @@ package com.stalary.pf.message.controller;
 
 import com.stalary.pf.message.data.dto.ReadMessage;
 import com.stalary.pf.message.data.entity.MessageEntity;
-import com.stalary.pf.message.data.vo.ResponseMessage;
+import com.stalary.pf.message.common.vo.ResponseMessage;
 import com.stalary.pf.message.service.MessageService;
 import com.stalary.pf.message.util.UserUtil;
 import lombok.extern.slf4j.Slf4j;
