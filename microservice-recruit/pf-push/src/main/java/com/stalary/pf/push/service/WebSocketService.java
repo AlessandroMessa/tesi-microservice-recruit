@@ -8,6 +8,7 @@ package com.stalary.pf.push.service;
 import com.alibaba.fastjson.JSONObject;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
+import com.stalary.pf.push.common.WsMessage;
 import lombok.Data;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -114,7 +115,7 @@ public class WebSocketService {
 
     public void messageBroadcast(Long userId, String message) {
         log.info("message broadcast userId {}, message {}", userId, message);
-        redis.convertAndSend(MessageService.MESSAGE_CHANNEL, JSONObject.toJSONString(new MessageService.WsMessage(userId, message)));
+        redis.convertAndSend(MessageService.MESSAGE_CHANNEL, JSONObject.toJSONString(new WsMessage(userId, message)));
     }
 
     private void closeBroadcast(Long userId) {

@@ -2,11 +2,9 @@
 package com.stalary.pf.push.service;
 
 import com.alibaba.fastjson.JSONObject;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import com.stalary.pf.push.common.WsMessage;
+
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -38,13 +36,5 @@ public class MessageService {
         }
     }
 
-    @Data
-    @NoArgsConstructor
-    @AllArgsConstructor
-    static class WsMessage {
-        private Long userId;
-
-        private String message;
-    }
 
 }
