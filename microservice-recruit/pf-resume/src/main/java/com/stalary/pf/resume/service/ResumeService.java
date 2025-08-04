@@ -8,8 +8,7 @@ import com.stalary.pf.resume.data.constant.RedisKeys;
 import com.stalary.pf.resume.data.dto.*;
 import com.stalary.pf.resume.data.entity.Resume;
 import com.stalary.pf.resume.data.entity.Skill;
-import com.stalary.pf.resume.exception.MyException;
-import com.stalary.pf.resume.exception.ResultEnum;
+
 import com.stalary.pf.resume.repo.ResumeRepo;
 import com.stalary.pf.resume.repo.SkillRepo;
 import com.stalary.pf.resume.util.IdUtil;

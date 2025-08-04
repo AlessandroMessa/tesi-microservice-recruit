@@ -1,6 +1,6 @@
 package com.stalary.pf.outside.client;
 
-import com.stalary.pf.outside.data.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.outside.data.UploadAvatar;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
@@ -17,5 +17,5 @@ import org.springframework.web.bind.annotation.RequestBody;
 public interface UserClient {
 
     @PostMapping("/user/avatar")
-    ResponseMessage uploadAvatar(@RequestBody UploadAvatar uploadAvatar);
+    ResponseMessage<Void> uploadAvatar(@RequestBody UploadAvatar uploadAvatar);
 }

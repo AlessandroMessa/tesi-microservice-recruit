@@ -2,7 +2,7 @@ package com.stalary.pf.recruit.controller;
 
 import com.stalary.pf.recruit.data.dto.SendResume;
 import com.stalary.pf.recruit.data.entity.RecruitEntity;
-import com.stalary.pf.recruit.data.vo.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.recruit.service.RecruitService;
 import com.stalary.pf.recruit.util.RecruitUtil;
 import lombok.extern.slf4j.Slf4j;

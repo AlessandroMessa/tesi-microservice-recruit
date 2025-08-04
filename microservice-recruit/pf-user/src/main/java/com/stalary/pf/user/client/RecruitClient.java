@@ -1,8 +1,7 @@
 package com.stalary.pf.user.client;
 
 import com.stalary.pf.user.data.dto.Recruit;
-import com.stalary.pf.user.data.vo.ResponseMessage;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
+import com.stalary.pf.common.vo.ResponseMessage;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;

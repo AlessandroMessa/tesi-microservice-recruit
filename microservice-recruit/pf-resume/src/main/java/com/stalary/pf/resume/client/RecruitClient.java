@@ -1,7 +1,7 @@
 package com.stalary.pf.resume.client;
 
 import com.stalary.pf.resume.data.dto.Recruit;
-import com.stalary.pf.resume.data.vo.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

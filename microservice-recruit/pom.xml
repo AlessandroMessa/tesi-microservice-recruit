@@ -45,6 +45,7 @@
         <module>pf-message</module>
         <!-- 消费服务 -->
         <module>pf-consumer</module>
+        <module>pf-common</module>
     </modules>
 
     <repositories>

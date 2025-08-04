@@ -1,7 +1,7 @@
 package com.stalary.pf.gateway.client;
 
 import com.stalary.pf.gateway.data.ProjectInfo;
-import com.stalary.pf.gateway.data.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.gateway.data.User;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

@@ -5,8 +5,9 @@
  */
 package com.stalary.pf.outside.controller;
 
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.outside.data.Email;
-import com.stalary.pf.outside.data.ResponseMessage;
+
 import com.stalary.pf.outside.service.MailService;
 import com.stalary.pf.outside.service.SmsService;
 import com.stalary.pf.outside.service.UserService;
@@ -58,7 +59,7 @@ public class OutsideController {
      * @param avatar 头像
      **/
     @PostMapping("/avatar")
-    public ResponseMessage upload(
+    public ResponseMessage<Void> upload(
             HttpServletRequest request,
             @RequestParam("avatar") MultipartFile avatar) {
         Long userId = UserUtil.getUserId(request);
@@ -66,7 +67,7 @@ public class OutsideController {
     }
 
     @PostMapping("/email")
-    public ResponseMessage sendEmail(
+    public ResponseMessage<Void> sendEmail(
             @RequestBody Email email) {
         mailService.sendEmail(email.getEmail(), email.getTitle(), email.getContent());
         return ResponseMessage.successMessage("邮件发送成功");

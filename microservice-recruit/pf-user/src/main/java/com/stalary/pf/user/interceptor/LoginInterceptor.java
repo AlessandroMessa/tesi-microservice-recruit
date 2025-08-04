@@ -5,7 +5,7 @@ import com.stalary.pf.user.data.constant.Constant;
 import com.stalary.pf.user.data.constant.RedisKeys;
 import com.stalary.pf.user.data.dto.User;
 import com.stalary.pf.user.exception.MyException;
-import com.stalary.pf.user.exception.ResultEnum;
+import com.stalary.pf.common.exception.ResultEnum;
 import com.stalary.pf.user.holder.UserHolder;
 import com.stalary.pf.user.service.ClientService;
 import lombok.extern.slf4j.Slf4j;

@@ -1,7 +1,7 @@
 package com.stalary.pf.recruit.controller;
 
 import com.stalary.pf.recruit.data.entity.CompanyEntity;
-import com.stalary.pf.recruit.data.vo.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.recruit.service.RecruitService;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package com.stalary.pf.consumer.client;
 
 import com.stalary.pf.consumer.data.dto.Recruit;
-import com.stalary.pf.consumer.data.dto.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;

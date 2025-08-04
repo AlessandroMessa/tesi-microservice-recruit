@@ -4,7 +4,7 @@ import com.stalary.pf.resume.data.dto.GetResumeRate;
 import com.stalary.pf.resume.data.dto.Recruit;
 import com.stalary.pf.resume.data.dto.SendResume;
 import com.stalary.pf.resume.data.entity.Resume;
-import com.stalary.pf.resume.data.vo.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.resume.service.ResumeService;
 import org.springframework.web.bind.annotation.*;
 

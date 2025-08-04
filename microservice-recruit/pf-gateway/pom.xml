@@ -28,6 +28,12 @@
             <artifactId>caffeine</artifactId>
             <version>2.6.2</version>
         </dependency>
+        <dependency>
+            <groupId>com.stalary</groupId>
+            <artifactId>pf-common</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>

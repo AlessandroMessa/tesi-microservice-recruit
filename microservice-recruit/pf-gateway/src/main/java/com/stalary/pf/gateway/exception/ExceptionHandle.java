@@ -1,7 +1,7 @@
 package com.stalary.pf.gateway.exception;
 
 import com.alibaba.fastjson.JSONObject;
-import com.stalary.pf.gateway.data.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.web.reactive.error.ErrorWebExceptionHandler;
 import org.springframework.cloud.gateway.support.NotFoundException;

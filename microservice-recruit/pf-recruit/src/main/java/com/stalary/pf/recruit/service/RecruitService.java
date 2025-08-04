@@ -15,7 +15,7 @@ import com.stalary.pf.recruit.data.mapper.RecruitAndHrAndCompany;
 import com.stalary.pf.recruit.data.vo.*;
 import com.stalary.pf.recruit.exception.ExceptionThreadFactory;
 import com.stalary.pf.recruit.exception.MyException;
-import com.stalary.pf.recruit.exception.ResultEnum;
+import com.stalary.pf.common.exception.ResultEnum;
 import com.stalary.pf.recruit.repo.CompanyRepo;
 import com.stalary.pf.recruit.repo.RecruitRepo;
 import com.stalary.pf.recruit.util.RecruitUtil;

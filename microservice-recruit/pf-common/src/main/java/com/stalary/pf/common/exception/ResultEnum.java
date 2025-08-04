@@ -1,4 +1,4 @@
-package com.stalary.pf.outside.exception;
+package com.stalary.pf.common.exception;
 
 import lombok.Getter;
 
@@ -17,7 +17,13 @@ public enum ResultEnum {
     SEND_NOTE_ERROR(2001, "发送短信失败"),
     QINIU_ERROR(2002, "七牛云接口出错"),
 
+    RECRUIT_NOT_EXIST(1601, "招聘信息不存在"),
+    CODE_ERROR(1002, "短信验证码错误"),
+
+    CODE_EXPIRE(1003, "短信验证码已过期，请重新输入"),
+
     SUCCESS(0, "成功");
+
 
     @Getter
     private Integer code;

@@ -1,6 +1,6 @@
 package com.stalary.pf.resume.exception;
 
-import com.stalary.pf.resume.data.vo.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

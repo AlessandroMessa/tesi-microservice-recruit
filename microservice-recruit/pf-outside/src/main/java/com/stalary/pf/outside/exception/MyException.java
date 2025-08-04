@@ -1,5 +1,6 @@
 package com.stalary.pf.outside.exception;
 
+import com.stalary.pf.common.exception.ResultEnum;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
 

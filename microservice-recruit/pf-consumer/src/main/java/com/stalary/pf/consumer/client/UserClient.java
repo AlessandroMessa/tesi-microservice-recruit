@@ -1,6 +1,6 @@
 package com.stalary.pf.consumer.client;
 
-import com.stalary.pf.consumer.data.dto.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import com.stalary.pf.consumer.data.dto.UserInfo;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.cloud.openfeign.FeignClient;

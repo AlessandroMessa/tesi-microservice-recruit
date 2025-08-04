@@ -1,5 +1,6 @@
-package com.stalary.pf.resume.data.vo;
+package com.stalary.pf.common.vo;
 
+import com.stalary.pf.common.exception.ResultEnum;
 import lombok.Data;
 
 /**
@@ -27,14 +28,18 @@ public class ResponseMessage<T> {
         this.success = success;
     }
 
-    public ResponseMessage() {
-    }
-
     public ResponseMessage(int code, String msg, boolean success, T data) {
         this.code = code;
         this.msg = msg;
         this.success = success;
         this.data = data;
+    }
+
+    public ResponseMessage() {
+    }
+
+    public static ResponseMessage enumError(ResultEnum resultEnum) {
+        return new ResponseMessage(resultEnum.getCode(), resultEnum.getMsg(), false);
     }
 
     public static ResponseMessage error(int code, String msg) {

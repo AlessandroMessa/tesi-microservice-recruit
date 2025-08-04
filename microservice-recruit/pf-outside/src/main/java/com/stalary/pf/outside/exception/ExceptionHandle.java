@@ -1,6 +1,6 @@
 package com.stalary.pf.outside.exception;
 
-import com.stalary.pf.outside.data.ResponseMessage;
+import com.stalary.pf.common.vo.ResponseMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
