@@ -1,5 +1,5 @@
 
-package com.stalary.pf.recruit.data.vo;
+package com.stalary.pf.recruit.data.mapper;
 
 import com.stalary.pf.recruit.data.entity.CompanyEntity;
 import com.stalary.pf.recruit.data.entity.RecruitEntity;

@@ -1,4 +1,4 @@
-package com.stalary.pf.recruit.data.dto;
+package com.stalary.pf.recruit.data.common.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

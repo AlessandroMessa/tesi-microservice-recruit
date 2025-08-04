@@ -1,6 +1,7 @@
 
 package com.stalary.pf.recruit.data.dto;
 
+import com.stalary.pf.recruit.data.common.dto.SkillRule;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
