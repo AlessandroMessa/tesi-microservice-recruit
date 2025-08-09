@@ -1,7 +1,9 @@
-package com.stalary.pf.message.common.vo;
+package com.stalary.pf.message.data.vo;
 
-import com.stalary.pf.message.common.exception.ResultEnum;
+import com.stalary.pf.message.exception.ResultEnum;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 /**
  * @model ResponseMessage

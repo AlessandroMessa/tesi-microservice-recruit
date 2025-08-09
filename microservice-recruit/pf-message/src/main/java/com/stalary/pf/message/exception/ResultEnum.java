@@ -1,4 +1,4 @@
-package com.stalary.pf.message.common.exception;
+package com.stalary.pf.message.exception;
 
 import lombok.Getter;
 
